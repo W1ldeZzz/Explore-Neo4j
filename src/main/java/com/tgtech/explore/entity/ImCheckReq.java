@@ -1,6 +1,6 @@
 package com.tgtech.explore.entity;
 
-public class PersonalInfo {
+public class ImCheckReq {
     private String sfzh;
     private String jzkh;
     private String bah;
@@ -8,6 +8,9 @@ public class PersonalInfo {
     private String mzh;
     private String phone;
     private String empi;
+    private String type;
+    private String jcdxh;
+    private String yzxh;
 
     public String getSfzh() {
         return sfzh;
@@ -33,20 +36,20 @@ public class PersonalInfo {
         this.bah = bah;
     }
 
-    public String getMzh() {
-        return mzh;
-    }
-
-    public void setMzh(String mzh) {
-        this.mzh = mzh;
-    }
-
     public String getZyh() {
         return zyh;
     }
 
     public void setZyh(String zyh) {
         this.zyh = zyh;
+    }
+
+    public String getMzh() {
+        return mzh;
+    }
+
+    public void setMzh(String mzh) {
+        this.mzh = mzh;
     }
 
     public String getPhone() {
@@ -63,5 +66,29 @@ public class PersonalInfo {
 
     public void setEmpi(String empi) {
         this.empi = empi;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getJcdxh() {
+        return jcdxh;
+    }
+
+    public void setJcdxh(String jcdxh) {
+        this.jcdxh = jcdxh;
+    }
+
+    public String getYzxh() {
+        return yzxh;
+    }
+
+    public void setYzxh(String yzxh) {
+        this.yzxh = yzxh;
     }
 }
